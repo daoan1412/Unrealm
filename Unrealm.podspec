@@ -29,13 +29,12 @@ Getting rid of boilerplate code such @objc dynamic var. Use just var or let
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.dependency 'RealmSwift', '~> 3.14'
 
   s.source_files = 'Unrealm/Classes/**/*.{h,m,swift}'
   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
-  s.dependency 'RealmSwift', '3.17.3'
+  s.dependency 'RealmSwift', '3.14'
   s.dependency 'Runtime', '2.1.0'
 end
